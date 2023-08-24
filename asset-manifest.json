@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/muquranclass/static/css/main.48cc909d.css",
-    "main.js": "/muquranclass/static/js/main.c0193c85.js",
-    "static/media/main-1.jpg": "/muquranclass/static/media/main-1.155296b65bd6585ef65c.jpg",
-    "static/media/main-4.jpg": "/muquranclass/static/media/main-4.2e68f989a0231750293a.jpg",
-    "static/media/main-2.jpg": "/muquranclass/static/media/main-2.b2d76f5075eb8b5551d3.jpg",
-    "static/media/main-3.jpg": "/muquranclass/static/media/main-3.9e764d1a90ae2594306f.jpg",
-    "static/media/main-back.svg": "/muquranclass/static/media/main-back.7205b3b420999d4fb5b0.svg",
-    "index.html": "/muquranclass/index.html",
-    "main.48cc909d.css.map": "/muquranclass/static/css/main.48cc909d.css.map",
-    "main.c0193c85.js.map": "/muquranclass/static/js/main.c0193c85.js.map"
+    "main.css": "/myquranclass/static/css/main.341aa91f.css",
+    "main.js": "/myquranclass/static/js/main.79e90831.js",
+    "static/media/main-1.jpg": "/myquranclass/static/media/main-1.155296b65bd6585ef65c.jpg",
+    "static/media/main-4.jpg": "/myquranclass/static/media/main-4.2e68f989a0231750293a.jpg",
+    "static/media/main-2.jpg": "/myquranclass/static/media/main-2.b2d76f5075eb8b5551d3.jpg",
+    "static/media/main-3.jpg": "/myquranclass/static/media/main-3.9e764d1a90ae2594306f.jpg",
+    "static/media/main-back.svg": "/myquranclass/static/media/main-back.7205b3b420999d4fb5b0.svg",
+    "index.html": "/myquranclass/index.html",
+    "main.341aa91f.css.map": "/myquranclass/static/css/main.341aa91f.css.map",
+    "main.79e90831.js.map": "/myquranclass/static/js/main.79e90831.js.map"
   },
   "entrypoints": [
-    "static/css/main.48cc909d.css",
-    "static/js/main.c0193c85.js"
+    "static/css/main.341aa91f.css",
+    "static/js/main.79e90831.js"
   ]
 }

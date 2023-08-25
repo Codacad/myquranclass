@@ -1,0 +1,58 @@
+div.private-class{
+  /* background-image: url('../images//bubbles.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width:100%;
+  min-height: 50vh;
+  align-items: center;
+  align-content: center;
+  padding: 20px 10%;
+}
+div.private-class div.content-side{
+  
+}
+div.content-side div.content{
+  width: 100%;
+}
+div.content-side div.content h3{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+div.content-side div.content h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+div.content-side div.content p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #333333c1;
+}
+div.content-side div.content a{
+  display: block;
+  width: 150px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #793FDF;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 2px rgba(0,0,0,.2);
+}
+
+div.private-class div.img-side{
+  
+}
+div.img-side img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}

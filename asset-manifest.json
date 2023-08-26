@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb46226f.css",
-    "main.js": "/static/js/main.68cb5563.js",
+    "main.css": "/static/css/main.3cd10a2e.css",
+    "main.js": "/static/js/main.e670ed64.js",
     "static/media/main-1.jpg": "/static/media/main-1.155296b65bd6585ef65c.jpg",
     "static/media/main-4.jpg": "/static/media/main-4.2e68f989a0231750293a.jpg",
+    "static/media/girls.png": "/static/media/girls.6894d2f600069e62a6e0.png",
     "static/media/main-2.jpg": "/static/media/main-2.b2d76f5075eb8b5551d3.jpg",
     "static/media/main-3.jpg": "/static/media/main-3.9e764d1a90ae2594306f.jpg",
+    "static/media/curve-design.jpg": "/static/media/curve-design.9cdb21250ae3a3dcd552.jpg",
     "static/media/main-back.svg": "/static/media/main-back.7205b3b420999d4fb5b0.svg",
     "static/media/access_to_learn.svg": "/static/media/access_to_learn.6d50482ee2d36aa8a8ec.svg",
     "static/media/access-learning-back.svg": "/static/media/access-learning-back.792a84984cbbc86b95b5.svg",
     "index.html": "/index.html",
-    "main.bb46226f.css.map": "/static/css/main.bb46226f.css.map",
-    "main.68cb5563.js.map": "/static/js/main.68cb5563.js.map"
+    "main.3cd10a2e.css.map": "/static/css/main.3cd10a2e.css.map",
+    "main.e670ed64.js.map": "/static/js/main.e670ed64.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb46226f.css",
-    "static/js/main.68cb5563.js"
+    "static/css/main.3cd10a2e.css",
+    "static/js/main.e670ed64.js"
   ]
 }

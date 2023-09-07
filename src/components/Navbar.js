@@ -20,7 +20,7 @@ const Navbar = () => {
                 <li className='nav-item'><Link to="/contact">Contact</Link></li>
                 <li className='nav-item'><Link to="/teachers">Teachers</Link></li>
             </ul>
-            <Link to="#" className="admission">Admission</Link>
+            <Link to="https://forms.gle/osxA5UGdysD7F5xUA" className="admission">Admission</Link>
             <div className="hamburger-menu">
               <span></span>
               <span></span>

@@ -98,6 +98,12 @@ div.tutoring-service .services div.service{
   div.tutoring-service div.headings h1{
     font-size: 28px;
   }
+  div.tutoring-service{
+    padding: 20px 5%;
+  }
+  .services div.service{
+    margin-bottom: 10px;
+  }
 }
 @media (max-width:440px){
   div.tutoring-service .services{

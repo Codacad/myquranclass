@@ -1,25 +1,31 @@
 import React from 'react'
 import '../css/Navbar.css'
+import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <>
       <div className="navbar">
         <div className="join-quickly">
           <span>Join our online Quran and Hadith classes quickly, </span>
-          <a href="https://wa.me/+918937865765">+918937865765</a>
+          <Link to="https://wa.me/+918937865765">+918937865765</Link>
         </div>
         <nav>
             <div className="logo">
-              <a href="#">MYQURANCLASS</a>
+              <Link to="#">MYQURANCLASS</Link>
             </div>
               <ul className='nav-list'>
-                <li className='nav-item'><a href="3">Home</a></li>
-                <li className='nav-item'><a href="3">Courses</a></li>
-                <li className='nav-item'><a href="3">About</a></li>
-                <li className='nav-item'><a href="3">Contact</a></li>
-                <li className='nav-item'><a href="3">Teachers</a></li>
+                <li className='nav-item'><Link to="/">Home</Link></li>
+                <li className='nav-item'><Link to="/courses">Courses</Link></li>
+                <li className='nav-item'><Link to="/about">About</Link></li>
+                <li className='nav-item'><Link to="/contact">Contact</Link></li>
+                <li className='nav-item'><Link to="/teachers">Teachers</Link></li>
             </ul>
-            <a href="#" className="admission">Admission</a>
+            <Link to="#" className="admission">Admission</Link>
+            <div className="hamburger-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
         </nav>
       </div>
     </>

@@ -4,6 +4,7 @@ import MainTwo from '../images/main-2.jpg'
 import MainThree from '../images/main-3.jpg'
 import MainFour from '../images/main-4.jpg'
 import '../css/LandingPage.css'
+import { Link } from 'react-router-dom'
 const LandingPage = () => {
   return (
     <>
@@ -11,7 +12,7 @@ const LandingPage = () => {
           <div className="text-content">
             <h1>Let's gain Islamic knowledge by learning about Quran and Hadith</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus laboriosam reiciendis nisi, esse placeat ad.</p>
-            <a href="#" className="get-started">get Started</a>
+            <Link to="/message" className="get-started">get Started</Link>
           </div>
           <div className="images">
             <img src={MainOne} className='img-1' alt="Main Image One" />

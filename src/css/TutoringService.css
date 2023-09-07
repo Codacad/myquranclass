@@ -4,12 +4,13 @@ div.tutoring-service{
   justify-content: center;
   align-items: center;
   padding: 20px 10%;
-  background-image: url('../images/curve-design.jpg');
+  /* background-image: url('../images/blurry-gradient.svg');
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 70vh;
+  background-size: cover; */
+  /* background-position: center; */
+  background-color: #fff;
+  min-height: 100vh;
 }
 div.tutoring-service div.headings{
   text-align: center;
@@ -91,4 +92,17 @@ div.tutoring-service .services div.service{
 }
 .services div.service a:hover{
   font-weight: 700;
+}
+
+@media (max-width:740px){
+  div.tutoring-service .services{
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+  }
+}
+@media (max-width:440px){
+  div.tutoring-service .services{
+    display: block;
+  }
 }

@@ -15,8 +15,10 @@ div.navbar .join-quickly{
 .join-quickly a{
   text-decoration: none;
   font-weight: 700;
-  color: #333;
+  color: #fff;
   margin-left: 10px;
+  background-color: #793FDF;
+  padding: 2px;
 }
 
 div.navbar nav{
@@ -65,4 +67,40 @@ nav .admission{
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
+}
+div.hamburger-menu{
+  display: none;
+}
+@media (max-width:780px){
+  div.navbar nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px 2%;
+  }
+  nav ul{
+    display: none;
+  }
+  nav .admission{
+    display: none;
+    width: 100px;
+    padding: 7px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  div.hamburger-menu{
+    width: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    gap: 5px;
+    cursor: pointer;
+  }
+  div.hamburger-menu span{
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #333333bf;
+    border-radius: 5px;
+  }
 }

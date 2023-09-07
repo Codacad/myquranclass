@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/AccessLearning.css'
+import { Link } from 'react-router-dom'
 
 const AccessLeanring = () => {
   return (
@@ -19,7 +20,7 @@ const AccessLeanring = () => {
                 <span>Flexible</span>
                 <span>Affordable</span>
               </div>
-              <a href="#" className="get-started">Get Started</a>
+              <Link to="#" className="get-started">Get Started</Link>
             </div>
           </div>
       </div>

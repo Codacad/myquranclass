@@ -11,7 +11,7 @@ div.choose-to-learn{
 
 div.choose-to-learn div.contents{
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   padding: 5%;
   display: flex;
   flex-direction: column;
@@ -38,7 +38,7 @@ div.contents div.courses{
   gap: 30px;
   margin: 20px 0;
 }
-/* \2713 */
+
 div.courses span{
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -64,4 +64,35 @@ div.courses span::before{
   transform: translate(-50%, -50%);
   color: #fff;
   margin-left: 10px;
+}
+
+@media (max-width:740px){
+  div.choose-to-learn div.contents{
+    padding: 5%;
+    align-items: flex-start;
+  }
+  div.contents div.courses{
+    display: flex;
+    flex-direction: column;
+  }
+  div.contents h1{
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+  div.contents h1.Allah{
+    width: 100%;
+    font-size: 44px;
+    text-align: center;
+  }
+  div.courses span{
+    font-weight: 300;
+    font-size: 18px;
+  }
+  div.courses span::before{
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #eee;
+    color: #793FDF;
+  }
 }

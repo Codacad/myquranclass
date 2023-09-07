@@ -1,6 +1,7 @@
 import React from 'react'
 import Girls from '../images/girls.png'
 import '../css/PrivateClass.css'
+import { Link } from 'react-router-dom'
 
 const PrivateClass = () => {
   return (
@@ -11,7 +12,7 @@ const PrivateClass = () => {
             <h3>Features</h3>
             <h1>Specify the time and day of private class</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus sunt consequatur, tempore quia totam atque. Vero nobis earum doloremque maiores perspiciatis eligendi neque aperiam, recusandae, ipsum amet numquam pariatur laborum.</p>
-            <a href="#">Call Teacher</a>
+            <Link to="#">Call Teacher</Link>
           </div>
         </div>
         <div className="img-side">

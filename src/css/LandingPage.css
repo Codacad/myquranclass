@@ -15,7 +15,8 @@
 }
 .text-content h1{
   font-family: "Montserrat", sans-serif;
-  color: #793FDF;
+  color: gray;
+  line-height: 1.5;
 }
 .text-content p{
   font-family: "Poppinis", sans-serif;
@@ -73,6 +74,9 @@
 @media (max-width:740px){
   .landing-page .images{
     gap: 20px;
+  }
+  .text-content h1{
+    font-size: 24px;
   }
   .images img{
     border-radius: 150px;

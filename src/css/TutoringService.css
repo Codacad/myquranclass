@@ -4,11 +4,6 @@ div.tutoring-service{
   justify-content: center;
   align-items: center;
   padding: 20px 10%;
-  /* background-image: url('../images/blurry-gradient.svg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  /* background-position: center; */
   background-color: #fff;
   min-height: 100vh;
 }
@@ -24,7 +19,7 @@ div.tutoring-service div.headings h3{
 }
 div.tutoring-service div.headings h1{
   font-family: 'Poppins', sans-serif;
-  width: 500px;
+  max-width: 500px;
   line-height: 1.5;
   margin-top: 10px;
   font-size: 38px;
@@ -99,6 +94,9 @@ div.tutoring-service .services div.service{
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     margin-top: 20px;
+  }
+  div.tutoring-service div.headings h1{
+    font-size: 28px;
   }
 }
 @media (max-width:440px){

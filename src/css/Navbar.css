@@ -50,7 +50,7 @@ nav ul li a{
   font-size: 14px;
 }
 nav ul li a:hover{
-  color: #333;
+  color: #793FDF;
 }
 nav .admission{
   display: block;
@@ -71,6 +71,16 @@ nav .admission{
 div.hamburger-menu{
   display: none;
 }
+@media (max-width:996px){
+  div.navbar nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding: 10px 2%;
+  }
+}
+
 @media (max-width:780px){
   div.navbar nav{
     display: grid;

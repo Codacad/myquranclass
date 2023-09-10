@@ -13,12 +13,12 @@ const Navbar = () => {
             <div className="logo">
               <Link to="#">MYQURANCLASS</Link>
             </div>
-              <ul className='nav-list'>
-                <li className='nav-item'><Link to="/">Home</Link></li>
-                <li className='nav-item'><Link to="/courses">Courses</Link></li>
-                <li className='nav-item'><Link to="/about">About</Link></li>
-                <li className='nav-item'><Link to="/contact">Contact</Link></li>
-                <li className='nav-item'><Link to="/teachers">Teachers</Link></li>
+            <ul className='nav-list'>
+              <li className='nav-item'><Link to="/">Home</Link></li>
+              <li className='nav-item'><Link to="/courses">Courses</Link></li>
+              <li className='nav-item'><Link to="/about">About</Link></li>
+              <li className='nav-item'><Link to="/contact">Contact</Link></li>
+              <li className='nav-item'><Link to="/teachers">Teachers</Link></li>
             </ul>
             <Link to="https://forms.gle/osxA5UGdysD7F5xUA" className="admission">Admission</Link>
             <div className="hamburger-menu">

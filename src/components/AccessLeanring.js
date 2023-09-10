@@ -13,7 +13,7 @@ const AccessLeanring = () => {
             <div className="content">
               <h3>Learning Methods</h3>
               <h1>Access to learning anytime anywhere</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem at commodi deleniti! Repudiandae, explicabo quae?</p>
+              <p>Empowering lifelong Islamic education through accessible, flexible learning opportunities anytime, anywhere. Enrich your knowledge with convenience and flexibility.</p>
               <div className="keywords">
                 <span>World Classes</span>
                 <span>Easy Learning</span>

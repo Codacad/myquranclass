@@ -11,7 +11,7 @@ const PrivateClass = () => {
           <div className="content">
             <h3>Features</h3>
             <h1>Specify the time and day of private class</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus sunt consequatur, tempore quia totam atque. Vero nobis earum doloremque maiores perspiciatis eligendi neque aperiam, recusandae, ipsum amet numquam pariatur laborum.</p>
+            <p>In accordance with Islamic principles, please specify the time and day for your private class. We respect the sacredness of time and scheduling, and we aim to accommodate your preferred timing within the framework of Islamic guidelines. Your convenience and adherence to your chosen schedule are important to us, and we strive to provide a flexible and respectful approach to meet your educational needs.</p>
             <Link to="#">Call Teacher</Link>
           </div>
         </div>

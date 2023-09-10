@@ -16,7 +16,7 @@ const Message = () => {
       <div className="send-message">
         <div className="form">
           <h1>Send us a message</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, voluptatum!</p>
+          <p>Connect with us by sending a brief message or inquiry.</p>
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="form-group">
               <label htmlFor="name">Name</label>

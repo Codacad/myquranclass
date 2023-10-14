@@ -1,8 +1,5 @@
 import React from 'react'
-import MainOne from '../images/main-1.jpg'
-import MainTwo from '../images/main-2.jpg'
-import MainThree from '../images/main-3.jpg'
-import MainFour from '../images/main-4.jpg'
+import { motion } from 'framer-motion'
 import '../css/LandingPage.css'
 import { Link } from 'react-router-dom'
 const LandingPage = () => {
@@ -15,10 +12,10 @@ const LandingPage = () => {
             <Link to="/message" className="get-started">get Started</Link>
           </div>
           <div className="images">
-            <img src={MainOne} className='img-1' alt="Main Image One" />
-            <img src={MainTwo} className='img-2' alt="Main Image Two" />
-            <img src={MainThree} className='img-3' alt="Main Image Three" />
-            <img src={MainFour} className='img-4' alt="Main Image Four" />
+            <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay: 0, duration:.5}} className='img img-1'></motion.div>
+            <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:.5, duration:.5}} className='img img-2'></motion.div>
+            <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1, duration:.5}} className='img img-3'></motion.div>
+            <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.5, duration:.5}} className='img img-4'></motion.div>
           </div>
       </div>
     </>

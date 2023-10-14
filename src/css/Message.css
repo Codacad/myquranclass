@@ -63,6 +63,11 @@ form div.form-group textarea{
   border-radius: 3px;
   transition: box-shadow 200ms ease-in, background-color 200ms ease-in;
 }
+form div.form-group .error{
+  color: #EA1179;
+  font-size: 12px;
+  margin-top: 5px;
+}
 form div.form-group input::placeholder{
   font-size: 14px;
   color: rgba(0,0,0,.5);

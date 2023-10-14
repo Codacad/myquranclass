@@ -1,19 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useForm } from 'react-hook-form'
-import { DevTool } from '@hookform/devtools'
+import { motion } from 'framer-motion'
 import '../css/Message.css'
 
 const Message = () => {
   const form = useForm()
   const { register, control, handleSubmit, formState } = form
-  const {errors} = formState
+  const { errors } = formState
+  
   const onSubmit = (data) => {
-    console.log(data)
+    if(!data){
+      console.log(errors)
+    }
   }
   return (
     <>
-      <div className="send-message">
+      <motion.div className="send-message" initial={{scale:.5}} animate={{scale:1}}>
         <div className="form">
           <h1>Send us a message</h1>
           <p>Connect with us by sending a brief message or inquiry.</p>
@@ -21,7 +24,7 @@ const Message = () => {
             <div className="form-group">
               <label htmlFor="name">Name</label>
               <input type="text" className="name"  id="name" placeholder='Rizwan' {...register('name', {required:"Name is required!"})}/>
-              <p>{errors.name?.message}</p>
+              <span className='error'>{errors.name?.message}</span>
             </div>
             <div className="form-group">
               <label htmlFor="email">Email</label>
@@ -31,27 +34,26 @@ const Message = () => {
                   message:"Please enter a valid email"
                 }
               })}/>
-              <p>{errors.email?.message}</p>
+              <span className='error'>{errors.email?.message}</span>
             </div>
             <div className="form-group">
               <label htmlFor="phone">Phone Number</label>
               <input type="phone" className="phone" id="phone" placeholder='Phone Number' {...register('phone', {required:"Phone Number is required!"})}/>
-              <p>{errors.phone?.message}</p>
+              <span className='error'>{errors.phone?.message}</span>
             </div>
             <div className="form-group">
               <label htmlFor="message">Message</label>
               <textarea id="message" className='message' cols="20" rows="5" placeholder='Type your message here...' {...register('message', {required:"Please wirte your message!"})}></textarea>
-              <p>{errors.message?.message}</p>
+              <span className='error'>{errors.message?.message}</span>
             </div>
             <button type='submit'>
               <span>Send</span> 
               <span><i className="material-icons">&#xe163;</i></span>
             </button>
           </form>
-          <DevTool control={control}/>
         </div>
         <div className="aside"></div>
-      </div>
+      </motion.div>
     </>
   )
 }

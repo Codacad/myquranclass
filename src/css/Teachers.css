@@ -2,7 +2,9 @@ div.teachers-message {
   width: 50%;
   margin: auto;
   margin-top: 30px;
+  padding: 20px;
   font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
 }
 div.teachers-content div.name {
   margin-top: 20px;
@@ -46,13 +48,15 @@ div.director-message div.text p {
 
 /* Objectives */
 div.objectives {
+  border-radius: 5px;
   width: 50%;
   margin: auto;
-  padding: 50px 0;
+  padding: 50px 20px;
   display: flex;
   gap: 20px;
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
+  margin: 20px auto;
 }
 div.objectives h1 {
   font-size: 28px;
@@ -75,7 +79,8 @@ div.objectives div.objective p span.heading {
 @media (max-width: 740px) {
   div.teachers-message {
     width: 100%;
-    padding: 0 20px;
+    padding: 20px 20px;
+    margin-top: 0px;
   }
   div.objectives {
     width: 100%;
@@ -85,5 +90,13 @@ div.objectives div.objective p span.heading {
     gap: 20px;
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
+    margin: 0 0;
+  }
+  div.director-message {
+    grid-template-columns: 1fr;
+  }
+  div.director-message div.profile {
+    justify-content: flex-start;
+    margin-bottom: 20px;
   }
 }

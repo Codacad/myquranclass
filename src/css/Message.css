@@ -3,9 +3,8 @@ div.send-message {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
-  /* box-shadow: 0px 3px 10px 2px rgba(0,0,0,.1); */
   border-radius: 10px;
-  background-color: #ea117a2c;
+  background-color: #eee;
   border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
@@ -19,6 +18,7 @@ div.send-message div.form {
 div.send-message div.form form {
   width: 80%;
   margin-top: 20px;
+  
 }
 div.send-message div.form h1 {
   color: #ea1179;
@@ -96,14 +96,41 @@ div.send-message div.form form button i {
   font-size: 16px;
   margin-left: 20px;
 }
-div.send-message div.aside {
-  background-image: url("../images/message-aside2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
+div.send-message div.contact-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
+div.send-message div.contact-side h1 {
+  font-size: 32px;
+  color: #ea1179;
+  margin-bottom: 20px;
+}
+div.send-message div.contact-side div.details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+div.contact-side div.details div.phone{
+  color: #ea117abe;
+}
+div.contact-side div.details div.phone a{
+  color: #ea117abe;
+  text-decoration: none;
+}
+div.contact-side div.details div.email a{
+  color: #ea117abe;
+  text-decoration: none;
+}
+div.contact-side div.details div.email a:hover{
+  color: #ea1179;
+}
+div.contact-side div.details div.phone a:hover{
+  color: #ea1179;
+}
+div.contact-side div.details div.address{
+  color: #ea117abe;
+}
 @media (max-width: 740px) {
   div.send-message {
     margin: 20px 0%;
@@ -119,9 +146,11 @@ div.send-message div.aside {
   }
   div.send-message div.form form {
     width: 100%;
-    padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;    
     border-radius: 10px;
-    background-color: #eee;
+    /* background-color: #eee; */
+  }
+  div.send-message div.contact-side {
+    padding: 5%;
   }
 }

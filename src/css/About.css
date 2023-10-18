@@ -2,10 +2,11 @@ div.about {
   font-family: "Montserrat", sans-serif;
   width: 50%;
   margin: auto;
-  padding: 30px 0;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  border-radius: 5px;
 }
 .about h1 {
   font-size: 200%;
@@ -52,41 +53,40 @@ div.journey h2,
 div.vision h2,
 div.approach h2,
 div.thank h2,
-div.join h2{
+div.join h2 {
   font-size: 20px;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.7);
 }
-p{
+p {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.8;
   margin-top: 10px;
 }
 
-div.why-choose h2{
+div.why-choose h2 {
   font-weight: 700;
   color: rgba(0, 0, 0, 0.9);
   font-size: 22px;
 }
-div.why-choose p{
+div.why-choose p {
   margin-top: 0;
 }
-div.why-choose div.choose{
+div.why-choose div.choose {
   padding: 10px 0;
 }
-div.why-choose div.choose h5{
+div.why-choose div.choose h5 {
   margin: 10px 0;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.6);
 }
 
-@media (max-width:740px){
+@media (max-width: 740px) {
   div.about {
     font-family: "Montserrat", sans-serif;
     width: 100%;
     margin: auto;
-    padding: 30px 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;

@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Main from './components/Main'
 import Teachers from './pages/Teachers'
 import About from './pages/About'
+import ZoomMeeting from './pages/ZoomMeeting'
 const App = () => {
   return (
     <div>

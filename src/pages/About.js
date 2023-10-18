@@ -8,7 +8,7 @@ const About = () => {
           About <span className="school">My Quran Class</span>
         </h1>
         <h3>Assalamu Alaikum wa Rahmatullahi wa Barakatuhu,</h3>
-        <div className="welcome">          
+        <div className="welcome">
           <p>
             Welcome to <span className="school">My Quran Class</span>, a
             nurturing sanctuary of knowledge, faith, and community. I am Mohd

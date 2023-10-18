@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import { useForm } from 'react-hook-form'
 import { motion } from 'framer-motion'
 import '../css/Message.css'
-
 const Message = () => {
   const form = useForm()
   const { register, control, handleSubmit, formState } = form
@@ -16,7 +15,7 @@ const Message = () => {
   }
   return (
     <>
-      <motion.div className="send-message" initial={{scale:.5}} animate={{scale:1}}>
+      <motion.div id='contact' className="send-message" initial={{scale:.5}} animate={{scale:1}}>
         <div className="form">
           <h1>Send us a message</h1>
           <p>Connect with us by sending a brief message or inquiry.</p>
@@ -52,7 +51,23 @@ const Message = () => {
             </button>
           </form>
         </div>
-        <div className="aside"></div>
+        <div className="contact-side">
+            <h1>Contact Details</h1>
+            <div className="details">
+              <div className="phone">
+                <span></span>
+                <Link to={"tel:+918937865765"}>+918937865765</Link>
+              </div>
+              <div className="email">
+                <span></span>
+                <Link title='Send Email' to={'mailto:mohdmohsinfrdi@gmail.com'}>mohdmohsinfrdi@gmail.com</Link>
+              </div>
+              <div className="address">
+                <span></span>
+                <span>244601 Faridnagar, Thakurdwara, Moradabad, Uttar Pradesh (India)</span>
+              </div>
+            </div>
+        </div>
       </motion.div>
     </>
   )

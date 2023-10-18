@@ -7,8 +7,7 @@
   min-height: 80vh;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  margin-top: 30px;
+  align-items: flex-start;  
 }
 
 .landing-page .text-content{
@@ -16,7 +15,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 10px;  
+  gap: 10px;    
 }
 .text-content h1.bismillah{
   color: #F11A7B;
@@ -74,7 +73,9 @@
   }
 }
 @media (max-width:740px){
-  
+  div.landing-page{
+    margin-top: 30px;
+  }
   .text-content h1{
     font-size: 24px;
   }

@@ -6,17 +6,17 @@ const LandingPage = () => {
   return (
     <>
       <div className="landing-page">
-          <div className="text-content">
+          <div className="text-content">            	
+              <h1 className='bismillah'>
+                &#65021;
+                {/* &#xFDFD; */}
+              </h1>
             <h1>Let's gain Islamic knowledge by learning about Quran and Hadith</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus laboriosam reiciendis nisi, esse placeat ad.</p>
+            <p>
+"Dive Into the Heart of Islam: Unlocking Profound Wisdom Through Quranic Exploration and Hadith Teachings".</p>
             <Link to="/message" className="get-started">get Started</Link>
-          </div>
-          <div className="images">
-            <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay: 0, duration:.5}} className='img img-1'></motion.div>
-            <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:.5, duration:.5}} className='img img-2'></motion.div>
-            <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1, duration:.5}} className='img img-3'></motion.div>
-            <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.5, duration:.5}} className='img img-4'></motion.div>
-          </div>
+          </div>         
+          
       </div>
     </>
   )

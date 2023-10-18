@@ -1,4 +1,4 @@
-div.send-message{
+div.send-message {
   margin: 20px 10%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -6,56 +6,56 @@ div.send-message{
   /* box-shadow: 0px 3px 10px 2px rgba(0,0,0,.1); */
   border-radius: 10px;
   background-color: #ea117a2c;
-  border: 1px solid rgba(0,0,0,.05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-div.send-message div.form{
+div.send-message div.form {
   padding: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-div.send-message div.form form{
+div.send-message div.form form {
   width: 80%;
   margin-top: 20px;
 }
-div.send-message div.form h1{
-  color: #EA1179;
+div.send-message div.form h1 {
+  color: #ea1179;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   font-size: 28px;
 }
-div.send-message div.form p{
+div.send-message div.form p {
   width: 80%;
   line-height: 1.6;
   text-align: center;
   margin-top: 10px;
-  color: rgba(0,0,0,.5);
+  color: rgba(0, 0, 0, 0.5);
   font-family: "Montserrat", sans-serif;
 }
-div.send-message div.form form div.form-group{
+div.send-message div.form form div.form-group {
   display: flex;
   flex-direction: column;
   width: 100%;
   margin-bottom: 20px;
 }
-form div.form-group label{
-  font-family: 'Montserrat', sans-serif;
+form div.form-group label {
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 14px;
   color: gray;
   margin-bottom: 5px;
 }
 form div.form-group input,
-form div.form-group textarea{
+form div.form-group textarea {
   width: 100%;
   display: block;
   outline: none;
-  padding:10px 15px;
+  padding: 10px 15px;
   font-weight: 500;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #33333381;
   background-color: #ea117a1c;
   border: none;
@@ -63,50 +63,49 @@ form div.form-group textarea{
   border-radius: 3px;
   transition: box-shadow 200ms ease-in, background-color 200ms ease-in;
 }
-form div.form-group .error{
-  color: #EA1179;
+form div.form-group .error {
+  color: #ea1179;
   font-size: 12px;
   margin-top: 5px;
 }
-form div.form-group input::placeholder{
+form div.form-group input::placeholder {
   font-size: 14px;
-  color: rgba(0,0,0,.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 form div.form-group input:focus,
-form div.form-group textarea:focus{
-  box-shadow:0px 0px 1px 2px #5B9A8B,
-             0px 0px 1px 2px #5B9A8B,
-             0px 0px 1px 2px #5B9A8B;
+form div.form-group textarea:focus {
+  box-shadow: 0px 0px 1px 2px #5b9a8b, 0px 0px 1px 2px #5b9a8b,
+    0px 0px 1px 2px #5b9a8b;
 }
-div.send-message div.form form button{
+div.send-message div.form form button {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #EA1179;
+  background-color: #ea1179;
   color: #fff;
   padding: 10px;
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   border: none;
   border-radius: 20px;
   cursor: pointer;
   text-transform: uppercase;
 }
-div.send-message div.form form button i{
+div.send-message div.form form button i {
   font-size: 16px;
   margin-left: 20px;
 }
-div.send-message div.aside{
-  background-image: url('../images/message-aside2.jpg');
+div.send-message div.aside {
+  background-image: url("../images/message-aside2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
 }
 
-@media (max-width:740px){
-  div.send-message{
+@media (max-width: 740px) {
+  div.send-message {
     margin: 20px 0%;
     display: block;
     grid-template-columns: 1fr 1fr;
@@ -114,15 +113,14 @@ div.send-message div.aside{
     justify-content: center;
     box-shadow: none;
     border-radius: 10px;
-    
   }
-  div.send-message div.form h1{
+  div.send-message div.form h1 {
     font-size: 24px;
   }
-  div.send-message div.form form{
+  div.send-message div.form form {
     width: 100%;
     padding: 1rem;
-    border:1px solid rgba(0,0,0,.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     background-color: #eee;
   }

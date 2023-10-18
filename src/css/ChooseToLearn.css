@@ -1,4 +1,4 @@
-div.choose-to-learn{
+div.choose-to-learn {
   /* background-image: url('../images/quran.jpg');
   background-repeat: no-repeat;
   object-fit: cover;
@@ -9,7 +9,7 @@ div.choose-to-learn{
   background-color: #eee;
 }
 
-div.choose-to-learn div.contents{
+div.choose-to-learn div.contents {
   width: 100%;
   min-height: 100vh;
   padding: 5%;
@@ -18,28 +18,28 @@ div.choose-to-learn div.contents{
   justify-content: center;
   align-items: center;
 }
-div.contents h1{
+div.contents h1 {
   font-family: "Poppins", sans-serif;
   margin-bottom: 30px;
   font-size: 38px;
   color: #333333e5;
   text-transform: uppercase;
 }
-div.contents h1.Allah{
+div.contents h1.Allah {
   font-size: 54px;
   font-family: "Poppins", sans-serif;
   font-weight: 900;
-  color:#793FDF;
-  text-shadow: 0px 20px 10px #793FDF;
+  color: #793fdf;
+  text-shadow: 0px 20px 10px #793fdf;
 }
-div.contents div.courses{
+div.contents div.courses {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
   margin: 20px 0;
 }
 
-div.courses span{
+div.courses span {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -48,7 +48,7 @@ div.courses span{
   left: 20px;
   color: #333333ca;
 }
-div.courses span::before{
+div.courses span::before {
   position: absolute;
   content: "\2713";
   display: flex;
@@ -57,7 +57,7 @@ div.courses span::before{
   padding: 5px;
   width: 15px;
   height: 15px;
-  background-color: #793FDF;
+  background-color: #793fdf;
   border-radius: 15px;
   top: 50%;
   left: -30px;
@@ -66,33 +66,33 @@ div.courses span::before{
   margin-left: 10px;
 }
 
-@media (max-width:740px){
-  div.choose-to-learn div.contents{
+@media (max-width: 740px) {
+  div.choose-to-learn div.contents {
     padding: 5%;
     align-items: flex-start;
   }
-  div.contents div.courses{
+  div.contents div.courses {
     display: flex;
     flex-direction: column;
   }
-  div.contents h1{
+  div.contents h1 {
     margin-bottom: 10px;
     font-size: 28px;
   }
-  div.contents h1.Allah{
+  div.contents h1.Allah {
     width: 100%;
     font-size: 44px;
     text-align: center;
   }
-  div.courses span{
+  div.courses span {
     font-weight: 300;
     font-size: 18px;
   }
-  div.courses span::before{
+  div.courses span::before {
     padding: 5px;
     width: 10px;
     height: 10px;
     background-color: #eee;
-    color: #793FDF;
+    color: #793fdf;
   }
 }

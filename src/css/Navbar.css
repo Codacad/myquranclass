@@ -1,40 +1,40 @@
-div.navbar{
+div.navbar {
   display: flex;
   flex-direction: column;
 }
 
-div.navbar .join-quickly{
+div.navbar .join-quickly {
   width: 100%;
   font-family: "Montserrat", sans-serif;
   padding: 10px;
-  background-color: #EA1179;
+  background-color: #ea1179;
   color: #fff;
   font-size: 12px;
   text-align: center;
 }
-.join-quickly a{
+.join-quickly a {
   text-decoration: none;
   font-weight: 700;
   color: #fff;
   margin-left: 10px;
-  background-color: #793FDF;
+  background-color: #793fdf;
   padding: 2px;
 }
 
-div.navbar nav{
+div.navbar nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-content: center;
   padding: 10px 10%;
 }
-nav .logo a{
+nav .logo a {
   text-decoration: none;
   font-weight: 800;
   color: #313866;
   font-size: 22px;
 }
-nav ul{
+nav ul {
   display: flex;
   list-style: none;
   gap: 30px;
@@ -42,37 +42,37 @@ nav ul{
 /* nav ul li{
   margin:;
 } */
-nav ul li a{
-  font-family: 'Montserrat', sans-serif;
+nav ul li a {
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: gray;
   font-weight: 600;
   font-size: 14px;
 }
-nav ul li a:hover{
-  color: #793FDF;
+nav ul li a:hover {
+  color: #793fdf;
 }
-nav .admission{
+nav .admission {
   display: block;
   width: 120px;
   text-decoration: none;
   text-align: center;
-  background-color: #793FDF;
+  background-color: #793fdf;
   color: #fff;
   padding: 10px;
   border-radius: 20px;
   margin-left: auto;
-  box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, .1);
+  box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.1);
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
 }
-div.hamburger-menu{
+div.hamburger-menu {
   display: none;
 }
-@media (max-width:996px){
-  div.navbar nav{
+@media (max-width: 996px) {
+  div.navbar nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -81,23 +81,23 @@ div.hamburger-menu{
   }
 }
 
-@media (max-width:780px){
-  div.navbar nav{
+@media (max-width: 780px) {
+  div.navbar nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 10px 2%;
   }
-  nav ul{
+  nav ul {
     display: none;
   }
-  nav .admission{
+  nav .admission {
     display: none;
     width: 100px;
     padding: 7px;
     font-size: 12px;
     font-weight: 400;
   }
-  div.hamburger-menu{
+  div.hamburger-menu {
     width: 30px;
     height: 100%;
     display: flex;
@@ -106,7 +106,7 @@ div.hamburger-menu{
     gap: 5px;
     cursor: pointer;
   }
-  div.hamburger-menu span{
+  div.hamburger-menu span {
     display: block;
     width: 100%;
     height: 4px;

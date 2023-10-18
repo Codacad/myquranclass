@@ -1,94 +1,70 @@
-.landing-page{
-  background-image: url('../images/main-back.svg');
+.landing-page {
+  background-image: url("../images/main-back.svg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px 5%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.landing-page .text-content{
+.landing-page .text-content {
   padding: 5% 10 0 10%;
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.text-content h1{
+.text-content h1.bismillah {
+  color: #f11a7b;
+  font-size: 38px;
+  margin-bottom: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.text-content h1.bismillah::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  background-color: #f11a7b;
+  bottom: -10px;
+}
+.text-content h1 {
   font-family: "Montserrat", sans-serif;
   color: gray;
   line-height: 1.5;
+  margin-bottom: 20px;
 }
-.text-content p{
+.text-content p {
   font-family: "Poppinis", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.5;
-  color: rgba(0,0,0,.7);
+  color: rgba(0, 0, 0, 0.7);
 }
-.text-content a{
+.text-content a {
   display: block;
   width: 140px;
   margin: auto;
-  background-color: #793FDF;
+  background-color: #793fdf;
   color: #fff;
   padding: 15px;
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 50px;
   font-family: "Montserrat", sans-serif;
-  box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
   margin-top: 20px;
   font-size: 14px;
   font-weight: 700;
 }
-.landing-page .images{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  padding-bottom: 100px;
-}
-.images div.img{
-  border-radius: 150px;
-  width: 20%;
-  height: 350px;
-  position: relative;
-  border: 5px solid #F11A7B;
-  box-shadow: 0px 0px 20px rgba(0,0,0,.3);
-}
-.img-1{
-  background-image: url('https://images.pexels.com/photos/8489273/pexels-photo-8489273.jpeg?auto=compress&cs=tinysrgb&w=600');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.img-2{
-  background-image: url('https://images.pexels.com/photos/2427797/pexels-photo-2427797.jpeg?auto=compress&cs=tinysrgb&w=600');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.img-3{
-  background-image: url('https://images.pexels.com/photos/14403349/pexels-photo-14403349.jpeg?auto=compress&cs=tinysrgb&w=600');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.img-4{
-  background-image: url('https://images.pexels.com/photos/15807108/pexels-photo-15807108/free-photo-of-quran.jpeg?auto=compress&cs=tinysrgb&w=600');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.img-1, .img-4{
-  top: 0;
-}
-.img-2, .img-3{
-  top: 100px;
-}
-@media (min-width:740px){
-  .landing-page .text-content{
+@media (min-width: 740px) {
+  .landing-page .text-content {
     padding: 2% 20% 0 20%;
     text-align: center;
     display: flex;
@@ -96,48 +72,27 @@
     gap: 10px;
   }
 }
-@media (max-width:740px){
-  .landing-page .images{
-    gap: 20px;
-  }
-  .text-content h1{
+@media (max-width: 740px) {
+  .text-content h1 {
     font-size: 24px;
   }
-  .images .img{
-    border-radius: 150px;
-    width: 20%;
-    height: 250px;
-    position: relative;
-    border: 5px solid #F11A7B;
-    box-shadow: 0px 0px 20px rgba(0,0,0,.3);
-  }
-  .text-content a{
+
+  .text-content a {
     display: block;
     width: 110px;
     margin: auto;
-    background-color: #793FDF;
+    background-color: #793fdf;
     color: #fff;
     padding: 8px;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 50px;
     font-family: "Montserrat", sans-serif;
-    box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
     margin-top: 20px;
     font-size: 12px;
     font-weight: 400;
   }
 }
-@media (max-width:520px) {
-  .images .img{
-    border-radius: 150px;
-    width: 20%;
-    height: 150px;
-    position: relative;
-    border: 5px solid #F11A7B;
-    box-shadow: 0px 0px 20px rgba(0,0,0,.3);
-  }
-  .img-2, .img-3{
-    top: 50px;
-  }
+@media (max-width: 520px) {
 }

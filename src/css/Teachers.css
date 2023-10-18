@@ -1,0 +1,89 @@
+div.teachers-message {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+div.teachers-content div.name {
+  margin-top: 20px;
+}
+div.teachers-content div.name h4 {
+  margin-bottom: 10px;
+}
+div.director-message {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+div.director-message div.profile {
+  display: flex;
+  justify-content: center;
+}
+div.director-message div.profile div.img {
+  width: 50px;
+  height: 50px;
+  background: url("https://img.freepik.com/free-vector/male-muslim-cartoon-character-colour-gradient-background_1308-49078.jpg?size=626&ext=jpg&ga=GA1.1.863202858.1691342888&semt=ais");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100px;
+}
+div.director-message div.text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+div.director-message div.text h3 {
+  font-size: 22px;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.7);
+}
+div.director-message div.text h4 {
+  color: gray;
+}
+div.director-message div.text p {
+  line-height: 1.8;
+}
+
+/* Objectives */
+div.objectives {
+  width: 50%;
+  margin: auto;
+  padding: 50px 0;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+}
+div.objectives h1 {
+  font-size: 28px;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 30px;
+}
+div.objectives div.objective p {
+  line-height: 1.8;
+  position: relative;
+}
+div.objectives div.objective p span.heading {
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Media Queries */
+@media (max-width: 740px) {
+  div.teachers-message {
+    width: 100%;
+    padding: 0 20px;
+  }
+  div.objectives {
+    width: 100%;
+    margin: auto;
+    padding: 50px 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+  }
+}

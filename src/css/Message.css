@@ -4,7 +4,6 @@ div.send-message {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   border-radius: 10px;
-  background-color: #eee;
   border: 1px solid rgba(0, 0, 0, 0.05);
 }
 

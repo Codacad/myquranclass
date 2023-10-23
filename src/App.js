@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 import Main from './components/Main'
 import Teachers from './pages/Teachers'
 import About from './pages/About'
-import ZoomMeeting from './pages/ZoomMeeting'
+import Footer from './components/Footer'
 const App = () => {
   return (
     <div>
@@ -14,8 +14,9 @@ const App = () => {
         <Routes>
           <Route path='/' exact element={<Main />}/>
           <Route path='/teachers' element={<Teachers />}/>
-          <Route path='/about' element={<About />}/>
+          <Route path='/about' element={<About />}/>          
         </Routes>
+        <Footer />
       </HashRouter>
     </div>
   )

@@ -16,7 +16,7 @@ const Main = () => {
       <AccessLeanring />
       <ChooseToLearn />
       <PrivateClass />
-      <Message />
+      <Message />     
     </>
   )
 }

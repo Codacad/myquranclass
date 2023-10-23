@@ -52,10 +52,10 @@ const About = () => {
         </div>
         <div className="why-choose">
           <h2>
-            Why Choose <span className="school">My Quran class</span>? Expert{" "}
+            Why Choose <span className="school">My Quran class</span>?
           </h2>
           <div className="choose">
-            <h5>Guidance:</h5>
+            <h5>Expert Guidance:</h5>
             <p>
               Our courses are crafted and taught by experienced educators and
               scholars who are deeply rooted in Islamic traditions.

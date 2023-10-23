@@ -1,5 +1,5 @@
-.landing-page{
-  background-image: url('../images/main-back.svg');
+.landing-page {
+  background-image: url("../images/main-back.svg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,64 +7,64 @@
   min-height: 80vh;
   display: flex;
   justify-content: center;
-  align-items: flex-start;  
+  align-items: flex-start;
 }
 
-.landing-page .text-content{
+.landing-page .text-content {
   padding: 5% 10% 0 10%;
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 10px;    
+  gap: 10px;
 }
-.text-content h1.bismillah{
-  color: #F11A7B;
+.text-content h1.bismillah {
+  color: #f11a7b;
   font-size: 38px;
   margin-bottom: 40px;
   position: relative;
   display: flex;
   justify-content: center;
 }
-.text-content h1.bismillah::after{
+.text-content h1.bismillah::after {
   content: "";
   display: block;
   position: absolute;
   width: 100px;
   height: 5px;
-  background-color: #F11A7B;
+  background-color: #f11a7b;
   bottom: -10px;
 }
-.text-content h1{
+.text-content h1 {
   font-family: "Montserrat", sans-serif;
   color: gray;
   line-height: 1.5;
   margin-bottom: 20px;
 }
-.text-content p{
+.text-content p {
   font-family: "Poppinis", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.5;
-  color: rgba(0,0,0,.7);
+  color: rgba(0, 0, 0, 0.7);
 }
-.text-content a{
+.text-content a {
   display: block;
   width: 140px;
   margin: auto;
-  background-color: #793FDF;
+  background-color: #793fdf;
   color: #fff;
   padding: 15px;
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 50px;
   font-family: "Montserrat", sans-serif;
-  box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
   margin-top: 20px;
   font-size: 14px;
   font-weight: 700;
 }
-@media (min-width:740px){
-  .landing-page .text-content{
+@media (min-width: 740px) {
+  .landing-page .text-content {
     padding: 2% 20% 0 20%;
     text-align: center;
     display: flex;
@@ -72,31 +72,30 @@
     gap: 10px;
   }
 }
-@media (max-width:740px){
-  div.landing-page{
-    margin-top: 30px;
+@media (max-width: 740px) {
+  div.landing-page {
+    margin-top: 0px;
   }
-  .text-content h1{
+  .text-content h1 {
     font-size: 24px;
   }
 
-  .text-content a{
+  .text-content a {
     display: block;
     width: 110px;
     margin: auto;
-    background-color: #793FDF;
+    background-color: #793fdf;
     color: #fff;
     padding: 8px;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 50px;
     font-family: "Montserrat", sans-serif;
-    box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
     margin-top: 20px;
     font-size: 12px;
     font-weight: 400;
   }
 }
-@media (max-width:520px) {
-  
+@media (max-width: 520px) {
 }

@@ -87,9 +87,9 @@ div.hamburger-menu {
   div.navbar nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0px 2%;
+    padding: 0px 2%;    
   }
-  nav ul {
+  nav ul.nav-list {
     display: none;
   }
   nav .admission {
@@ -99,21 +99,61 @@ div.hamburger-menu {
     font-size: 12px;
     font-weight: 400;
   }
-  div.hamburger-menu {
-    width: 30px;
-    height: 100%;
+  div.hamburger-menu{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: auto;
-    gap: 5px;
-    cursor: pointer;
+    justify-content: flex-end;    
   }
-  div.hamburger-menu span {
-    display: block;
-    width: 100%;
-    height: 4px;
-    background-color: #333333bf;
-    border-radius: 5px;
+  div.hamburger-menu div.icons{
+    display: flex;
+    align-items: center;
+  }
+  div.hamburger-menu img.open{
+   cursor: pointer;      
+  }
+  div.hamburger-menu img.close{
+   cursor: pointer; 
+  }
+}
+
+/* Mobile Menu */
+div.mobile-menu{
+  display: none;
+}
+
+@media (max-width: 780px){
+  div.mobile-menu{
+    display: block;    
+    max-height: 0;
+    overflow: hidden;
+    transition: 200ms ease-in-out;
+  }
+ div.mobile-menu.toggle-menu{
+    max-height: 300px;    
+    transition: 200ms ease-in-out;
+  }
+  div.mobile-menu .mobile-admission{
+    text-decoration: none;
+    background-color: #793fdf;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+  }
+  div.mobile-menu nav{
+    padding: 5%;
+    background-color: #7a3fdf2a;  
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);    
+  }
+  div.mobile-menu nav ul{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  div.mobile-menu nav ul a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
   }
 }

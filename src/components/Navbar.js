@@ -1,9 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import '../css/Navbar.css'
 import Logo from '../images/logo 200x60.png'
 import IconMenu from '../images/icon-menu.svg'
+import Close from '../images/close.svg'
 import { Link } from 'react-router-dom'
+import MobileMenu from './MobileMenu'
+import { motion } from 'framer-motion'
 const Navbar = () => {
+  let [toggleMoblieMenu, setToggleMobileMenu] = useState(false)
+  const handleToggleMenu = () => {
+    setToggleMobileMenu(!toggleMoblieMenu)
+  }
   return (
     <>
       <div className="navbar">
@@ -13,7 +20,7 @@ const Navbar = () => {
         </div>
         <nav>
             <div className="logo">
-              <Link to="#"><img src={Logo} alt="" /></Link>
+              <Link to="/"><img src={Logo} alt="" /></Link>
             </div>
             <ul className='nav-list'>
               <li className='nav-item'><Link to="/">Home</Link></li>
@@ -23,10 +30,13 @@ const Navbar = () => {
             </ul>
             <Link to="https://forms.gle/osxA5UGdysD7F5xUA" className="admission">Admission</Link>
             <div className="hamburger-menu">
-              <img src={IconMenu} alt="" />
+              <div className="icons">
+                <motion.img initial={{opacity:0}} animate={{opacity:1}} className='open' src={!toggleMoblieMenu ? IconMenu : Close} alt="" onClick={handleToggleMenu}/>                
+              </div>
             </div>
-        </nav>
-      </div>
+        </nav>        
+      </div>      
+      <MobileMenu toggleMoblieMenu={toggleMoblieMenu} setToggleMobileMenu={setToggleMobileMenu}/>
     </>
   )
 }

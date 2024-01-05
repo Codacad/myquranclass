@@ -28,7 +28,7 @@ const Navbar = () => {
               <li className='nav-item'><Link to="/teachers">Teachers</Link></li>
               <li className='nav-item'><Link to="/about">About</Link></li>          
             </ul>
-            <Link to="https://forms.gle/osxA5UGdysD7F5xUA" className="admission">Admission</Link>
+            <Link to="https://docs.google.com/forms/d/e/1FAIpQLScyZ843V5Ntj-6PCWus3VZJTU-gbeMwlhQYRjqA06SmtiE2Uw/viewform?usp=sf_link" className="admission">Admission</Link>
             <div className="hamburger-menu">
               <div className="icons">
                 <motion.img initial={{opacity:0}} animate={{opacity:1}} className='open' src={!toggleMoblieMenu ? IconMenu : Close} alt="" onClick={handleToggleMenu}/>                
